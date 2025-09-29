@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Huni's Academy Driving School</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial,Helvetica,sans-serif;color:#1f2937;line-height:1.5}
+    a{text-decoration:none;color:inherit}
+
+    header{
+      background:linear-gradient(90deg,#0d47a1,#1976d2);
+      color:#fff;
+      padding:20px 0;
+      text-align:center;
+    }
+    header h1{font-size:32px;margin-bottom:6px}
+    header p{font-size:16px;opacity:0.9}
+
+    nav{
+      background:#1976d2;
+      padding:10px;
+      text-align:center;
+    }
+    nav a{
+      margin:0 12px;
+      color:#fff;
+      font-weight:bold;
+    }
+
+    .motto{
+      background:#ffcc00;
+      text-align:center;
+      padding:10px;
+      font-weight:bold;
+      font-size:18px;
+    }
+
+    .hero{
+      background:url('https://images.unsplash.com/photo-1542367597-59c88a8c1eaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      color:#fff;
+      height:300px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-shadow:0 2px 6px rgba(0,0,0,0.6);
+      text-align:center;
+      padding:0 20px;
+    }
+    .hero h2{font-size:30px;margin-bottom:8px}
+    .hero a{
+      margin-top:12px;
+      padding:10px 16px;
+      background:#ffcc00;
+      border-radius:8px;
+      font-weight:bold;
+      color:#000;
+    }
+
+    .container{max-width:1000px;margin:0 auto;padding:20px}
+    .container p{max-width:800px}
+    h2{margin-bottom:10px;color:#0d47a1}
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:14px}
+    .card{background:#fff;border-radius:10px;padding:14px;box-shadow:0 6px 14px rgba(0,0,0,0.1)}
+    .card h3{margin-bottom:6px;color:#1976d2}
+    .small{font-size:14px;color:#555}
+
+    footer{
+      background:#0d47a1;
+      color:#fff;
+      text-align:center;
+      padding:18px;
+      margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Huni's Academy Driving School</h1>
+    <p>Chinhoyi, Zimbabwe</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#social">Social</a>
+  </nav>
+
+  <div class="motto">Learners Today, Drivers Tomorrow</div>
+
+  <section class="hero">
+    <h2>Start Your Driving Journey With Confidence</h2>
+    <p>Affordable lessons • Free oral classes • Car hire available</p>
+    <a href="#services">Explore Our Services</a>
+  </section>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Huni's Academy Driving School is dedicated to training competent and responsible drivers. We provide a safe learning environment with qualified instructors to ensure every student is ready for the road.</p>
+    </section>
+
+    <section id="services" style="margin-top:24px">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Driving Lessons</h3>
+          <p class="small">Practical lessons available at <strong>$4</strong> per 30 minutes.</p>
+        </div>
+        <div class="card">
+          <h3>Free Oral Lessons</h3>
+          <p class="small">Theory classes are offered free of charge to prepare learners for their provisional tests.</p>
+        </div>
+        <div class="card">
+          <h3>Car Hire</h3>
+          <p class="small">Vehicles available for hire during tests at <strong>$30</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:24px">
+      <h2>Contact Us</h2>
+      <p>Location: Chinhoyi, Zimbabwe</p>
+      <p>Phone: 0771012630</p>
+      <p>Email: hunisacademy@gmail.com</p>
+      <p>
+        <a href="https://wa.me/263771012630" target="_blank" 
+           style="display:inline-block;margin-top:10px;padding:10px 16px;background:#25d366;
+                  color:#fff;border-radius:8px;font-weight:bold;">
+           📱 Chat with us on WhatsApp
+        </a>
+      </p>
+    </section>
+
+    <section id="social" style="margin-top:24px">
+      <h2>Follow Us</h2>
+      <p>
+        <a href="https://instagram.com/y_u_g_o.zw" target="_blank">📸 y_u_g_o.zw</a><br>
+        <a href="https://instagram.com/owenhuni" target="_blank">📸 owenhuni</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Huni's Academy Driving School | Learners Today, Drivers Tomorrow</p>
+  </footer>
+</body>
+</html>
